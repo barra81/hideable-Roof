@@ -24,7 +24,7 @@ class rCr_roofCodeUI {
 			colorText[] = {0, 0.6, 1, 1};
 			colorBackground[] = {0, 0, 0, 0};
 			colorBackgroundActive[] = {0, 0, 0, 0};
-			action = "dayz_combination = dayz_combination + str(1);";
+			action = "dayz_RoofCombination = dayz_RoofCombination + str(1);";
 			soundClick[] = {"\dayz_sfx\action\cell\dtmf_1.ogg", 0.5, 1};
 		};
 		
@@ -40,7 +40,7 @@ class rCr_roofCodeUI {
 			colorText[] = {0, 0.6, 1, 1};
 			colorBackground[] = {0, 0, 0, 0};
 			colorBackgroundActive[] = {0, 0, 0, 0};
-			action = "dayz_combination = dayz_combination + str(4);";
+			action = "dayz_RoofCombination = dayz_RoofCombination + str(4);";
 			soundClick[] = {"\dayz_sfx\action\cell\dtmf_4.ogg", 0.5, 1};
 		};
 		
@@ -56,7 +56,7 @@ class rCr_roofCodeUI {
 			colorText[] = {0, 0.6, 1, 1};
 			colorBackground[] = {0, 0, 0, 0};
 			colorBackgroundActive[] = {0, 0, 0, 0};
-			action = "dayz_combination = dayz_combination + str(7);";
+			action = "dayz_RoofCombination = dayz_RoofCombination + str(7);";
 			soundClick[] = {"\dayz_sfx\action\cell\dtmf_7.ogg", 0.5, 1};
 		};
 		
@@ -72,7 +72,7 @@ class rCr_roofCodeUI {
 			colorText[] = {0, 0.6, 1, 1};
 			colorBackground[] = {0, 0, 0, 0};
 			colorBackgroundActive[] = {0, 0, 0, 0};
-			action = "dayz_combination = dayz_combination + str(2);";
+			action = "dayz_RoofCombination = dayz_RoofCombination + str(2);";
 			soundClick[] = {"\dayz_sfx\action\cell\dtmf_2.ogg", 0.5, 1};
 		};
 		
@@ -88,7 +88,7 @@ class rCr_roofCodeUI {
 			colorText[] = {0, 0.6, 1, 1};
 			colorBackground[] = {0, 0, 0, 0};
 			colorBackgroundActive[] = {0, 0, 0, 0};
-			action = "dayz_combination = dayz_combination + str(8);";
+			action = "dayz_RoofCombination = dayz_RoofCombination + str(8);";
 			soundClick[] = {"\dayz_sfx\action\cell\dtmf_8.ogg", 0.5, 1};
 		};
 		
@@ -104,7 +104,7 @@ class rCr_roofCodeUI {
 			colorText[] = {0, 0.6, 1, 1};
 			colorBackground[] = {0, 0, 0, 0};
 			colorBackgroundActive[] = {0, 0, 0, 0};
-			action = "dayz_combination = dayz_combination + str(5);";
+			action = "dayz_RoofCombination = dayz_RoofCombination + str(5);";
 			soundClick[] = {"\dayz_sfx\action\cell\dtmf_5.ogg", 0.5, 1};
 		};
 		
@@ -120,7 +120,7 @@ class rCr_roofCodeUI {
 			colorText[] = {0, 0.6, 1, 1};
 			colorBackground[] = {0, 0, 0, 0};
 			colorBackgroundActive[] = {0, 0, 0, 0};
-			action = "dayz_combination = dayz_combination + str(3);";
+			action = "dayz_RoofCombination = dayz_RoofCombination + str(3);";
 			soundClick[] = {"\dayz_sfx\action\cell\dtmf_3.ogg", 0.5, 1};
 		};
 		
@@ -136,7 +136,7 @@ class rCr_roofCodeUI {
 			colorText[] = {0, 0.6, 1, 1};
 			colorBackground[] = {0, 0, 0, 0};
 			colorBackgroundActive[] = {0, 0, 0, 0};
-			action = "dayz_combination = dayz_combination + str(6);";
+			action = "dayz_RoofCombination = dayz_RoofCombination + str(6);";
 			soundClick[] = {"\dayz_sfx\action\cell\dtmf_6.ogg", 0.5, 1};
 		};
 		
@@ -152,7 +152,7 @@ class rCr_roofCodeUI {
 			colorText[] = {0, 0.6, 1, 1};
 			colorBackground[] = {0, 0, 0, 0};
 			colorBackgroundActive[] = {0, 0, 0, 0};
-			action = "dayz_combination = dayz_combination + str(9);";
+			action = "dayz_RoofCombination = dayz_RoofCombination + str(9);";
 			soundClick[] = {"\dayz_sfx\action\cell\dtmf_9.ogg", 0.5, 1};
 		};
 		
@@ -168,7 +168,7 @@ class rCr_roofCodeUI {
 			colorText[] = {0, 0.6, 1, 1};
 			colorBackground[] = {0, 0, 0, 0};
 			colorBackgroundActive[] = {0, 0, 0, 0};
-			action = "dayz_combination = dayz_combination + str(0);";
+			action = "dayz_RoofCombination = dayz_RoofCombination + str(0);";
 			soundClick[] = {"\dayz_sfx\action\cell\dtmf_9.ogg", 0.5, 1};
 		};
 		

@@ -3,7 +3,7 @@
 				player playActionNow "Medic";
 
 				[player,_sfx,0,false] call dayz_zombieSpeak;
-				[player,50,true,(getPosATL player)] spawn player_alertZombies;
+				[player,10,true,(getPosATL player)] spawn player_alertZombies;
 
 				r_interrupt = false;
 				_animState = animationState player;
@@ -36,14 +36,14 @@ if (_setOK) then {
 
 
 _object = nearestObject [player, "MAP_phonebox"];
-_keycode = dayz_combination;
+_keycode = dayz_RoofCombination;
 _actual = _object getVariable ["CharacterID", "0"];
 _inMotion = _object getVariable ["inMotion",0];
 
 
 _classname = "Infostand_2_EP1";
 
- If ((_actual == dayz_combination)) then {
+ If ((_actual == dayz_RoofCombination)) then {
 	        _location	= _object getVariable["OEMPos",(getposATL _object)];
 			_dir = getDir _object;
 
@@ -71,6 +71,6 @@ cutText [format["You entered the wrong Key"], "PLAIN DOWN"];
 
 } else {
 
-cutText [format["Cancelled unlocking!"], "PLAIN DOWN"];
+cutText [format["Canceled unlocking!"], "PLAIN DOWN"];
 
 };

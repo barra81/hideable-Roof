@@ -12,7 +12,7 @@
 	
 						
 _object = nearestObject [player, "Infostand_2_EP1"];
-_newCombo = dayz_combination;
+_newCombo = dayz_RoofCombination;
 
 _actual = _object getVariable ["CharacterID", "0"];
 _inMotion = _object getVariable ["inMotion",0];
@@ -25,7 +25,7 @@ _sfx = "repair";
 				player playActionNow "Medic";
 
 				[player,_sfx,0,false] call dayz_zombieSpeak;
-				[player,50,true,(getPosATL player)] spawn player_alertZombies;
+				[player,10,true,(getPosATL player)] spawn player_alertZombies;
 
 				r_interrupt = false;
 				_animState = animationState player;
@@ -89,5 +89,5 @@ cutText [format["Your new ComboKey:  %1", _newCombo], "PLAIN DOWN"];
 			
 } else {
 
-		cutText [format["Cancelled setting new Code !"], "PLAIN DOWN"];					
+		cutText [format["Canceled setting new Code !"], "PLAIN DOWN"];					
 	};

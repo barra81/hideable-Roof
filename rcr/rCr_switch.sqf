@@ -7,9 +7,11 @@ _nearestGates = nearestObjects [_nearestOne, ["MAP_Ind_Shed_01_main"], 40];
 _panelCode = _nearestOne getVariable ["CharacterID","0"];
 _inMotion = _nearestOne getVariable ["inMotion",0];
 
+//_roofCombi = dayz_RoofCombination;
+//["conCyan",format ["dayz_RoofCombination: %1 , panelCode : %2", _roofCombi, _panelCode]] call diaglog;
 
 
-If ((_panelCode == dayz_combination)) then {
+If ((_panelCode == dayz_RoofCombination)) then {
 
 if (_inMotion == 0) then {
 
